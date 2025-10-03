@@ -1,0 +1,3 @@
+D:/code/GHOSTESCAPE/build/CMakeFiles/GHOSTESCAPE-Windows.dir
+D:/code/GHOSTESCAPE/build/CMakeFiles/edit_cache.dir
+D:/code/GHOSTESCAPE/build/CMakeFiles/rebuild_cache.dir

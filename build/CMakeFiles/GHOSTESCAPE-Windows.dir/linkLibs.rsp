@@ -1,0 +1,1 @@
+  -LD:/code/GHOSTESCAPE/SDL3/lib  -LD:/code/GHOSTESCAPE/glm/lib  -lSDL3 -lSDL3_image -lSDL3_mixer -lSDL3_ttf -lglm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

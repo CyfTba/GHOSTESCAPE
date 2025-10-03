@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\GHOSTESCAPE-Windows.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\GHOSTESCAPE-Windows.dir/objects.a @CMakeFiles\GHOSTESCAPE-Windows.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\GHOSTESCAPE-Windows.dir/objects.a -Wl,--no-whole-archive -o D:\code\GHOSTESCAPE\GHOSTESCAPE-Windows.exe -Wl,--out-implib,libGHOSTESCAPE-Windows.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GHOSTESCAPE-Windows.dir\linkLibs.rsp
