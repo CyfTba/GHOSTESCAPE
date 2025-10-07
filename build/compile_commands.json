@@ -1,8 +1,38 @@
 [
 {
   "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\game.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\game.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/game.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\main.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\main.cpp",
   "file": "D:/code/GHOSTESCAPE/src/main.cpp",
   "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\object_world.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\object_world.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/object_world.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\player.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\player.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/player.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\scene.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\scene.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/scene.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\scene_main.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\scene_main.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/scene_main.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj"
 }
 ]

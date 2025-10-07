@@ -128,6 +128,30 @@ GHOSTESCAPE-Windows/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/build
 .PHONY : GHOSTESCAPE-Windows/fast
 
+src/game.obj: src/game.cpp.obj
+.PHONY : src/game.obj
+
+# target to build an object file
+src/game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj
+.PHONY : src/game.cpp.obj
+
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -152,6 +176,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/object_world.obj: src/object_world.cpp.obj
+.PHONY : src/object_world.obj
+
+# target to build an object file
+src/object_world.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj
+.PHONY : src/object_world.cpp.obj
+
+src/object_world.i: src/object_world.cpp.i
+.PHONY : src/object_world.i
+
+# target to preprocess a source file
+src/object_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.i
+.PHONY : src/object_world.cpp.i
+
+src/object_world.s: src/object_world.cpp.s
+.PHONY : src/object_world.s
+
+# target to generate assembly for a file
+src/object_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.s
+.PHONY : src/object_world.cpp.s
+
+src/player.obj: src/player.cpp.obj
+.PHONY : src/player.obj
+
+# target to build an object file
+src/player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj
+.PHONY : src/player.cpp.obj
+
+src/player.i: src/player.cpp.i
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.i
+.PHONY : src/player.cpp.i
+
+src/player.s: src/player.cpp.s
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.s
+.PHONY : src/player.cpp.s
+
+src/scene.obj: src/scene.cpp.obj
+.PHONY : src/scene.obj
+
+# target to build an object file
+src/scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj
+.PHONY : src/scene.cpp.obj
+
+src/scene.i: src/scene.cpp.i
+.PHONY : src/scene.i
+
+# target to preprocess a source file
+src/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.i
+.PHONY : src/scene.cpp.i
+
+src/scene.s: src/scene.cpp.s
+.PHONY : src/scene.s
+
+# target to generate assembly for a file
+src/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.s
+.PHONY : src/scene.cpp.s
+
+src/scene_main.obj: src/scene_main.cpp.obj
+.PHONY : src/scene_main.obj
+
+# target to build an object file
+src/scene_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj
+.PHONY : src/scene_main.cpp.obj
+
+src/scene_main.i: src/scene_main.cpp.i
+.PHONY : src/scene_main.i
+
+# target to preprocess a source file
+src/scene_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.i
+.PHONY : src/scene_main.cpp.i
+
+src/scene_main.s: src/scene_main.cpp.s
+.PHONY : src/scene_main.s
+
+# target to generate assembly for a file
+src/scene_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.s
+.PHONY : src/scene_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GHOSTESCAPE-Windows
+	@echo ... src/game.obj
+	@echo ... src/game.i
+	@echo ... src/game.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/object_world.obj
+	@echo ... src/object_world.i
+	@echo ... src/object_world.s
+	@echo ... src/player.obj
+	@echo ... src/player.i
+	@echo ... src/player.s
+	@echo ... src/scene.obj
+	@echo ... src/scene.i
+	@echo ... src/scene.s
+	@echo ... src/scene_main.obj
+	@echo ... src/scene_main.i
+	@echo ... src/scene_main.s
 .PHONY : help
 
 
