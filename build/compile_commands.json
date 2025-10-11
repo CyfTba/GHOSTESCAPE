@@ -1,6 +1,12 @@
 [
 {
   "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\asset_store.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\asset_store.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/asset_store.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\game.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\game.cpp",
   "file": "D:/code/GHOSTESCAPE/src/game.cpp",
   "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"
@@ -10,6 +16,12 @@
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\main.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\main.cpp",
   "file": "D:/code/GHOSTESCAPE/src/main.cpp",
   "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\object.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\object.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/object.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj"
 },
 {
   "directory": "D:/code/GHOSTESCAPE/build",

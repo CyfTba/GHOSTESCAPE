@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj"
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj.d"
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj"
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj"

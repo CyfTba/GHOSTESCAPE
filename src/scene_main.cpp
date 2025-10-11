@@ -6,30 +6,32 @@ void Scene_Main::init(){
     player_->init();
     player_->setPosition(world_size_/2.0f);//设置玩家初始位置在世界中心
     camera_position_=world_size_/2.0f - game_.GetScreenSize()/2.0f;//初始相机位置在世界中心
+    addChild(player_);//添加玩家到场景
 }
 
 void Scene_Main::handleEvents(SDL_Event& event){
-    
+
+    Scene::handleEvents(event);
+
 }
 
 void Scene_Main::update(float dt)
 {
-    player_->update(dt);
+    Scene::update(dt);
+ 
 }
 
 void Scene_Main::render()
 {
     drawBackground();
-    player_->render();
+    Scene::render();
+    
 }
 
 void Scene_Main::clean()
 {
-    if(player_!=nullptr){
-        player_->clean();
-        delete player_;
-        player_=nullptr;
-    }
+    Scene::clean();
+
 }
 
 void Scene_Main::drawBackground()

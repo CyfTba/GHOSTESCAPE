@@ -38,7 +38,7 @@ void Game::init(std::string title, int width, int height){
 
     //SDL3_TTF初始化
     if(!TTF_Init()){
-         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,"SDL_TTF初始化失败:%s\n",SDL_GetError());
+        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,"SDL_TTF初始化失败:%s\n",SDL_GetError());
     }
     //创建窗口和渲染器
     SDL_CreateWindowAndRenderer(title.c_str(),width,height,SDL_WINDOW_RESIZABLE,&window_,&renderer_);
@@ -48,9 +48,12 @@ void Game::init(std::string title, int width, int height){
     SDL_SetRenderLogicalPresentation(renderer_,width,height,SDL_LOGICAL_PRESENTATION_LETTERBOX);//设置逻辑渲染
     frame_delay_=1000000000/FPS_;
 
+    asset_store_=new AssetStore(renderer_);//创建资源管理器
+
     //创建场景
     current_scene_=new Scene_Main();
     current_scene_->init();
+
 }
 void Game::handleEvents(){
     SDL_Event event;
@@ -83,6 +86,11 @@ void Game::clean(){
         delete current_scene_;
     }
 
+    if(asset_store_!=nullptr){
+        asset_store_->clean();
+        delete asset_store_;
+    }
+
     if(renderer_!=nullptr){
         SDL_DestroyRenderer(renderer_);
     }
@@ -108,6 +116,7 @@ void Game::drawGrid(const glm::vec2 &top_left, const glm::vec2 &botton_right, fl
     }
     SDL_SetRenderDrawColorFloat(renderer_,0,0,0,1);//恢复默认颜色
 }
+
 
 void Game::drawBoundary(const glm::vec2 &top_left, const glm::vec2 &botton_right, float boundary_width, SDL_FColor fcolor)
 {

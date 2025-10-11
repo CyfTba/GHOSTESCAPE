@@ -128,6 +128,30 @@ GHOSTESCAPE-Windows/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/build
 .PHONY : GHOSTESCAPE-Windows/fast
 
+src/asset_store.obj: src/asset_store.cpp.obj
+.PHONY : src/asset_store.obj
+
+# target to build an object file
+src/asset_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj
+.PHONY : src/asset_store.cpp.obj
+
+src/asset_store.i: src/asset_store.cpp.i
+.PHONY : src/asset_store.i
+
+# target to preprocess a source file
+src/asset_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.i
+.PHONY : src/asset_store.cpp.i
+
+src/asset_store.s: src/asset_store.cpp.s
+.PHONY : src/asset_store.s
+
+# target to generate assembly for a file
+src/asset_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.s
+.PHONY : src/asset_store.cpp.s
+
 src/game.obj: src/game.cpp.obj
 .PHONY : src/game.obj
 
@@ -175,6 +199,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/object.obj: src/object.cpp.obj
+.PHONY : src/object.obj
+
+# target to build an object file
+src/object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj
+.PHONY : src/object.cpp.obj
+
+src/object.i: src/object.cpp.i
+.PHONY : src/object.i
+
+# target to preprocess a source file
+src/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.i
+.PHONY : src/object.cpp.i
+
+src/object.s: src/object.cpp.s
+.PHONY : src/object.s
+
+# target to generate assembly for a file
+src/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.s
+.PHONY : src/object.cpp.s
 
 src/object_world.obj: src/object_world.cpp.obj
 .PHONY : src/object_world.obj
@@ -281,12 +329,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GHOSTESCAPE-Windows
+	@echo ... src/asset_store.obj
+	@echo ... src/asset_store.i
+	@echo ... src/asset_store.s
 	@echo ... src/game.obj
 	@echo ... src/game.i
 	@echo ... src/game.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/object.obj
+	@echo ... src/object.i
+	@echo ... src/object.s
 	@echo ... src/object_world.obj
 	@echo ... src/object_world.i
 	@echo ... src/object_world.s

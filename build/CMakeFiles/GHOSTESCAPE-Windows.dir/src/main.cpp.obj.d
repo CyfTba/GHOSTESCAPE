@@ -348,4 +348,5 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj: \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cerrno \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc \
+ D:\code\GHOSTESCAPE\src\asset_store.h

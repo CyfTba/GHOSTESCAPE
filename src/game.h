@@ -6,7 +6,7 @@
 #include "SDL3_ttf/SDL_ttf.h"
 #include "glm/glm.hpp"
 #include <string>
-
+#include "asset_store.h"
 class Scene;
 //单例模式
 class Game{
@@ -24,6 +24,7 @@ private:
     //禁用拷贝构造和赋值操作符
     Game(const Game&)=delete;
     Game& operator=(const Game&)=delete;
+    AssetStore* asset_store_=nullptr;//资源管理器
 public:
     static Game& GetInstance(){
         static Game instance;
@@ -40,6 +41,7 @@ public:
     void drawGrid(const glm::vec2& top_left,const glm::vec2& botton_right,float grid_width,SDL_FColor fcolor);//绘制网格
     glm::vec2 GetScreenSize()const{return screen_size_;}//获取屏幕尺寸
     void drawBoundary(const glm::vec2& top_left,const glm::vec2& botton_right,float boundary_width,SDL_FColor fcolor);//绘制边界
+    AssetStore* getAssetStore()const{return asset_store_;}//获取资源管理器
 
 };
 

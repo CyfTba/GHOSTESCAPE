@@ -68,11 +68,26 @@ include CMakeFiles/GHOSTESCAPE-Windows.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GHOSTESCAPE-Windows.dir/flags.make
 
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/flags.make
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj: D:/code/GHOSTESCAPE/src/asset_store.cpp
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\asset_store.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\asset_store.cpp.obj -c D:\code\GHOSTESCAPE\src\asset_store.cpp
+
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\GHOSTESCAPE\src\asset_store.cpp > CMakeFiles\GHOSTESCAPE-Windows.dir\src\asset_store.cpp.i
+
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\GHOSTESCAPE\src\asset_store.cpp -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\asset_store.cpp.s
+
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/flags.make
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj: D:/code/GHOSTESCAPE/src/game.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\game.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\game.cpp.obj -c D:\code\GHOSTESCAPE\src\game.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj: CMakeFiles/GHOSTESCAPE-Wind
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj: D:/code/GHOSTESCAPE/src/main.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\main.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\main.cpp.obj -c D:\code\GHOSTESCAPE\src\main.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.i: cmake_force
@@ -98,11 +113,26 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.s"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\GHOSTESCAPE\src\main.cpp -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\main.cpp.s
 
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/flags.make
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj: D:/code/GHOSTESCAPE/src/object.cpp
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\object.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\object.cpp.obj -c D:\code\GHOSTESCAPE\src\object.cpp
+
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\GHOSTESCAPE\src\object.cpp > CMakeFiles\GHOSTESCAPE-Windows.dir\src\object.cpp.i
+
+CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\GHOSTESCAPE\src\object.cpp -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\object.cpp.s
+
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/flags.make
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj: D:/code/GHOSTESCAPE/src/object_world.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\object_world.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\object_world.cpp.obj -c D:\code\GHOSTESCAPE\src\object_world.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.i: cmake_force
@@ -117,7 +147,7 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj: CMakeFiles/GHOSTESCAPE-Wi
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj: D:/code/GHOSTESCAPE/src/player.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\player.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\player.cpp.obj -c D:\code\GHOSTESCAPE\src\player.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.i: cmake_force
@@ -132,7 +162,7 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj: CMakeFiles/GHOSTESCAPE-Win
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj: D:/code/GHOSTESCAPE/src/scene.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\scene.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\scene.cpp.obj -c D:\code\GHOSTESCAPE\src\scene.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.i: cmake_force
@@ -147,7 +177,7 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj: CMakeFiles/GHOSTESCAP
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj: D:/code/GHOSTESCAPE/src/scene_main.cpp
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj: CMakeFiles/GHOSTESCAPE-Windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj -MF CMakeFiles\GHOSTESCAPE-Windows.dir\src\scene_main.cpp.obj.d -o CMakeFiles\GHOSTESCAPE-Windows.dir\src\scene_main.cpp.obj -c D:\code\GHOSTESCAPE\src\scene_main.cpp
 
 CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.i: cmake_force
@@ -160,8 +190,10 @@ CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.s: cmake_force
 
 # Object files for target GHOSTESCAPE-Windows
 GHOSTESCAPE__Windows_OBJECTS = \
+"CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj" \
 "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj" \
 "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj" \
+"CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj" \
 "CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj" \
 "CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj" \
 "CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj" \
@@ -170,8 +202,10 @@ GHOSTESCAPE__Windows_OBJECTS = \
 # External object files for target GHOSTESCAPE-Windows
 GHOSTESCAPE__Windows_EXTERNAL_OBJECTS =
 
+D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj
+D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/object.cpp.obj
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/object_world.cpp.obj
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/player.cpp.obj
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene.cpp.obj
@@ -180,7 +214,7 @@ D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/linkLibs.rsp
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/objects1.rsp
 D:/code/GHOSTESCAPE/GHOSTESCAPE-Windows.exe: CMakeFiles/GHOSTESCAPE-Windows.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable D:\code\GHOSTESCAPE\GHOSTESCAPE-Windows.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\GHOSTESCAPE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable D:\code\GHOSTESCAPE\GHOSTESCAPE-Windows.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GHOSTESCAPE-Windows.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
