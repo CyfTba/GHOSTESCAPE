@@ -1,8 +1,13 @@
 #include "player.h"
 #include "scene.h"
+#include "affiliate/sprite.h"
 void Player::init()
 {
     Actor::init();
+    auto sprite=new Sprite();
+    sprite->setTexture(Texture("assets/sprite/ghost-idle.png"));
+    sprite->setParrent(this);
+    addChild(sprite);
 }
 
 void Player::handleEvents(SDL_Event &event)
@@ -21,7 +26,6 @@ void Player::update(float dt)
 void Player::render()
 {   
     Actor::render();
-    game_.drawBoundary(render_position_,render_position_+glm::vec2(20.0f),5,{1.0,0.0,0.0,1.0});
 }
 
 void Player::clean()

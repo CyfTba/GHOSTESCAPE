@@ -3,6 +3,7 @@
 #include "object_screen.h"
 #include "object_world.h"
 #include "actor.h"
+#include "./affiliate/sprite.h"
 void Game::run(){
     while(is_running_){
         auto start=SDL_GetTicksNS();//获取当前时间
@@ -131,4 +132,10 @@ void Game::drawBoundary(const glm::vec2 &top_left, const glm::vec2 &botton_right
         SDL_RenderRect(renderer_,&rect);
     }
     SDL_SetRenderDrawColorFloat(renderer_,0,0,0,1);//恢复默认颜色
+}
+
+void Game::renderTexture(const Texture &texture, const glm::vec2 &position, const glm::vec2 &size)
+{
+    SDL_FRect destRect={position.x,position.y,size.x,size.y};//目标矩形
+    SDL_RenderTextureRotated(renderer_,texture.texture,&texture.srcRect,&destRect,texture.angle,nullptr,texture.is_flip?SDL_FLIP_HORIZONTAL:SDL_FLIP_NONE);
 }

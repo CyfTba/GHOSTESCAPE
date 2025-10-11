@@ -12,7 +12,7 @@ void Scene_Main::init(){
 void Scene_Main::handleEvents(SDL_Event& event){
 
     Scene::handleEvents(event);
-
+ 
 }
 
 void Scene_Main::update(float dt)

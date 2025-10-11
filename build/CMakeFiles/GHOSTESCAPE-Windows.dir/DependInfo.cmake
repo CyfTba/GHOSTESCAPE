@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/code/GHOSTESCAPE/src/affiliate/sprite.cpp" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj" "gcc" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj.d"
   "D:/code/GHOSTESCAPE/src/asset_store.cpp" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj" "gcc" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj.d"
   "D:/code/GHOSTESCAPE/src/game.cpp" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj" "gcc" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj.d"
   "D:/code/GHOSTESCAPE/src/main.cpp" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj" "gcc" "CMakeFiles/GHOSTESCAPE-Windows.dir/src/main.cpp.obj.d"

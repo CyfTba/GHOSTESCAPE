@@ -128,6 +128,30 @@ GHOSTESCAPE-Windows/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/build
 .PHONY : GHOSTESCAPE-Windows/fast
 
+src/affiliate/sprite.obj: src/affiliate/sprite.cpp.obj
+.PHONY : src/affiliate/sprite.obj
+
+# target to build an object file
+src/affiliate/sprite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj
+.PHONY : src/affiliate/sprite.cpp.obj
+
+src/affiliate/sprite.i: src/affiliate/sprite.cpp.i
+.PHONY : src/affiliate/sprite.i
+
+# target to preprocess a source file
+src/affiliate/sprite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.i
+.PHONY : src/affiliate/sprite.cpp.i
+
+src/affiliate/sprite.s: src/affiliate/sprite.cpp.s
+.PHONY : src/affiliate/sprite.s
+
+# target to generate assembly for a file
+src/affiliate/sprite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GHOSTESCAPE-Windows.dir\build.make CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.s
+.PHONY : src/affiliate/sprite.cpp.s
+
 src/asset_store.obj: src/asset_store.cpp.obj
 .PHONY : src/asset_store.obj
 
@@ -329,6 +353,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GHOSTESCAPE-Windows
+	@echo ... src/affiliate/sprite.obj
+	@echo ... src/affiliate/sprite.i
+	@echo ... src/affiliate/sprite.s
 	@echo ... src/asset_store.obj
 	@echo ... src/asset_store.i
 	@echo ... src/asset_store.s

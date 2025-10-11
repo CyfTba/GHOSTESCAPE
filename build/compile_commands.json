@@ -46,5 +46,11 @@
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\scene_main.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\scene_main.cpp",
   "file": "D:/code/GHOSTESCAPE/src/scene_main.cpp",
   "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/scene_main.cpp.obj"
+},
+{
+  "directory": "D:/code/GHOSTESCAPE/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/GHOSTESCAPE-Windows.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GHOSTESCAPE-Windows.dir\\src\\affiliate\\sprite.cpp.obj -c D:\\code\\GHOSTESCAPE\\src\\affiliate\\sprite.cpp",
+  "file": "D:/code/GHOSTESCAPE/src/affiliate/sprite.cpp",
+  "output": "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj"
 }
 ]

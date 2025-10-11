@@ -8,6 +8,7 @@
 #include <string>
 #include "asset_store.h"
 class Scene;
+struct Texture;
 //单例模式
 class Game{
 private:
@@ -42,6 +43,7 @@ public:
     glm::vec2 GetScreenSize()const{return screen_size_;}//获取屏幕尺寸
     void drawBoundary(const glm::vec2& top_left,const glm::vec2& botton_right,float boundary_width,SDL_FColor fcolor);//绘制边界
     AssetStore* getAssetStore()const{return asset_store_;}//获取资源管理器
+    void renderTexture(const Texture& texture,const glm::vec2& position,const glm::vec2& size);//渲染纹理
 
 };
 

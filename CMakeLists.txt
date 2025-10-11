@@ -12,7 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_SOURCE_DIR})
 set(TARGET ${PROJECT_NAME}-${CMAKE_SYSTEM_NAME})
 
 aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC)
-
+aux_source_directory(${CMAKE_SOURCE_DIR}/src/affiliate SRC_AFFILIATE)
+set(SRC ${SRC} ${SRC_AFFILIATE})
 #引入头文件目录和库文件目录
 include_directories(${CMAKE_SOURCE_DIR}/SDL3/include/)
 link_directories(${CMAKE_SOURCE_DIR}/SDL3/lib/)
