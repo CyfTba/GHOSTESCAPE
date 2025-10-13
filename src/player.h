@@ -13,7 +13,7 @@ public:
 
     void keyboardControl();
     void move(float dt);
-    void syncCameraPosition();
+    void syncCameraPosition();//同步摄像机位置
 };
 
 #endif

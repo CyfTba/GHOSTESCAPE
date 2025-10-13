@@ -36,7 +36,7 @@ void Scene_Main::clean()
 
 void Scene_Main::drawBackground()
 {   
-    //实际是渲染将背景网格向相机反方向移动
+    //实际是渲染将背景网格向相机反方向移动，以模拟相机移动的效果
     auto start=0.0f-camera_position_;
     auto end=world_size_-camera_position_;
     game_.drawGrid(start,end,80.0f,{0.5,0.5,0.5,1.0});//物体在窗口的坐标=物体在世界的坐标-相机位置

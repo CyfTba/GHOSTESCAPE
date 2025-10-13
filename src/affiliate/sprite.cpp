@@ -8,6 +8,17 @@ Texture::Texture(const std::string& file)
     
 }
 
+Sprite *Sprite::addSpriteChild(ObjectScreen *parent, const std::string &file, float scale)
+{
+    auto *sprite = new Sprite();
+    sprite->init();
+    sprite->setParrent(parent);
+    sprite->setTexture(Texture(file));//调用sprite的setTexture方法
+    sprite->setScale(scale);
+    parent->addChild(sprite);
+    return sprite;
+}
+
 void Sprite::setTexture(const Texture &texture)
 {
     texture_=texture;

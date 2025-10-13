@@ -1,13 +1,10 @@
 #include "player.h"
 #include "scene.h"
-#include "affiliate/sprite.h"
+#include "affiliate/sprite_anim.h"
 void Player::init()
 {
     Actor::init();
-    auto sprite=new Sprite();
-    sprite->setTexture(Texture("assets/sprite/ghost-idle.png"));
-    sprite->setParrent(this);
-    addChild(sprite);
+    SpriteAnim::addSpriteAnimChild(this,std::string("assets/sprite/ghost-idle.png"),2.0f);
 }
 
 void Player::handleEvents(SDL_Event &event)
@@ -54,7 +51,7 @@ void Player::keyboardControl()
         //velocity_.x=max_speed_;
     }
 }
-
+//并不会直接改变位置，而是通过player位置变化使相机位置变化，进而使背景向相反方向移动
 void Player::move(float dt)
 {   
     //向四周角移动会比普通方向快，应当向量归一化
@@ -65,7 +62,7 @@ void Player::move(float dt)
     } else {
         velocity_ *= 0.9f; // 无输入时速度衰减
     }
-    setPosition(position_ + velocity_ * dt);
+    setPosition(position_ + velocity_ * dt);//根据速度和时间更新位置
     SDL_Log("dt: %f, position: (%f, %f), velocity: (%f, %f,%f,%f)", dt, position_.x, position_.y, velocity_.x, velocity_.y,move_vector_.x,move_vector_.y);
 
     //待优化：限制范围应当考虑物体大小😉
@@ -74,5 +71,6 @@ void Player::move(float dt)
 
 void Player::syncCameraPosition()
 {
+    //同步摄像机位置，使其居中于玩家
     game_.getCurrentScene()->setCameraPosition(position_-game_.GetScreenSize()/2.0f);
 }

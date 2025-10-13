@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite.cpp.obj.d"
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite_anim.cpp.obj"
+  "CMakeFiles/GHOSTESCAPE-Windows.dir/src/affiliate/sprite_anim.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/asset_store.cpp.obj.d"
   "CMakeFiles/GHOSTESCAPE-Windows.dir/src/game.cpp.obj"

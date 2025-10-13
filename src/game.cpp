@@ -136,6 +136,6 @@ void Game::drawBoundary(const glm::vec2 &top_left, const glm::vec2 &botton_right
 
 void Game::renderTexture(const Texture &texture, const glm::vec2 &position, const glm::vec2 &size)
 {
-    SDL_FRect destRect={position.x,position.y,size.x,size.y};//目标矩形
+    SDL_FRect destRect={position.x,position.y,size.x,size.y};//目标矩形,渲染到屏幕的位置和大小
     SDL_RenderTextureRotated(renderer_,texture.texture,&texture.srcRect,&destRect,texture.angle,nullptr,texture.is_flip?SDL_FLIP_HORIZONTAL:SDL_FLIP_NONE);
 }
